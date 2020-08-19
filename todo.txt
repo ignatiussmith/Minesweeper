@@ -1,0 +1,9 @@
+Minesweeper ToDo:
+
+Move exiting board functions into a board class
+Prompt user for game difficulty: easy, intermediate, difficult, custom
+
+Create a play class which enables gameplay
+Create a GUI class which makes things pretty
+
+Work out details of a chaotic function
