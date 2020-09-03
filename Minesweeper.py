@@ -6,7 +6,9 @@ import random
 #Game will probably be a class
 #Board will probably be a class
 def MakeBoard(): 
-	#need to add error handling to input, valid sizes and mines
+	#need to add error handling for valid sizes and mines
+	#this will change to a menu later, so we don't need to 
+	#worry about error handling difficulty input
 	size = input("Enter difficulty (B, I, A, C): ")
 	if size == 'B' or size == 'b':
 		board = initialize_board(10, 10)
